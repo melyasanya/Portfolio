@@ -10,7 +10,7 @@ export const Layout = () => {
   return (
     <>
       <header className="border-b">
-        <div className="container flex justify-between py-[24px]">
+        <div className="container flex justify-between items-center py-[24px]">
           <Introduction />
           {isMobile && <BurgerMenu />}
         </div>

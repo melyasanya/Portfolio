@@ -56,7 +56,7 @@ export const BurgerMenu = () => {
                 ease: [0.22, 1, 0.36, 1],
               },
             }}
-            className="bg-white absolute left-0 top-[63px] w-full h-[420px] origin-top border-b-[10px] border-black"
+            className="bg-white absolute left-0 top-[97px] w-full h-[420px] origin-top border-b-[10px] border-black"
           >
             <Navigation />
           </motion.div>
