@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { Navigation } from "../Navigation/Navigation";
 import { useState } from "react";
+import { Socials } from "../Socials/Socials";
 
 export const BurgerMenu = () => {
   const [active, setActive] = useState(false);
@@ -52,13 +53,17 @@ export const BurgerMenu = () => {
             exit={{
               scaleY: 0,
               transition: {
+                delay: 0.5,
                 duration: 0.5,
                 ease: [0.22, 1, 0.36, 1],
               },
             }}
-            className="bg-white absolute left-0 top-[97px] w-full h-[420px] origin-top border-b-[10px] border-black"
+            className="bg-white absolute left-0 top-[97px] w-full  origin-top border-b-[10px] border-black"
           >
-            <Navigation />
+            <div className="container flex flex-col gap-[96px]">
+              <Navigation closeMenu={toggleMenu} />
+              <Socials />
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

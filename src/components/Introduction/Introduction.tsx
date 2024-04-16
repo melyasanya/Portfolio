@@ -3,7 +3,7 @@ export const Introduction = () => {
     <div className="flex gap-[8px]">
       <img
         src="/src/assets/images/avatar.JPG"
-        alt=""
+        alt="My photo"
         className="w-[48px] h-[48px] rounded border"
       />
       <div>
