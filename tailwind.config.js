@@ -13,12 +13,12 @@ export default {
     extend: {
       container: {
         center: true,
-        // padding: {
-        //   DEFAULT: "1.25rem",
-        //   sm: "1.25rem",
-        //   md: "2.5rem",
-        //   xl: "5rem",
-        // },
+        padding: {
+          DEFAULT: "1.25rem",
+          sm: "1.25rem",
+          md: "2.5rem",
+          xl: "5rem",
+        },
       },
       colors: {
         accent: "#5680E9",
