@@ -26,8 +26,8 @@ export default {
         bgColor: "#C1C8E4",
         white: "#FFF",
         black: "#222",
-        violet: "#8860D0",
-        bgModal: "#5AB9EA",
+        greenStatus: "#19B373",
+        bgGreenStatus: "#E9FCF4",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

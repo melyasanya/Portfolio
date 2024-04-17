@@ -16,27 +16,34 @@ const socialLinks = [
   { icon: <FaGithubSquare className="icons" />, link: "/" },
 ];
 
-export const Socials = () => {
-  return (
-    <motion.ul
-      variants={containerVars}
-      initial="initial"
-      animate="open"
-      exit="initial"
-      className="flex flex-row border-t justify-between text-accent p-[12px]"
-    >
-      {socialLinks.map((el, id) => {
-        return (
-          <li
-            className=" overflow-hidden flex justify-center items-center p-[12px]"
-            key={id}
-          >
-            <motion.div variants={elementVars}>
-              <Link to={el.link}>{el.icon}</Link>
-            </motion.div>
-          </li>
-        );
-      })}
-    </motion.ul>
-  );
+interface SocialProps {
+  section: string;
+}
+
+export const Socials: React.FC<SocialProps> = ({ section }) => {
+  if (section === "navigation")
+    return (
+      <motion.ul
+        variants={containerVars}
+        initial="initial"
+        animate="open"
+        exit="initial"
+        className="flex flex-row border-t justify-between text-accent p-[12px]"
+      >
+        {socialLinks.map((el, id) => {
+          return (
+            <li
+              className=" overflow-hidden flex justify-center items-center p-[12px]"
+              key={id}
+            >
+              <motion.div variants={elementVars}>
+                <Link to={el.link}>{el.icon}</Link>
+              </motion.div>
+            </li>
+          );
+        })}
+      </motion.ul>
+    );
+
+  if (section === "contact") return <div></div>;
 };

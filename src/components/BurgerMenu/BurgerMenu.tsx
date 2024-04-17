@@ -62,7 +62,7 @@ export const BurgerMenu = () => {
           >
             <div className="container flex flex-col gap-[96px]">
               <Navigation closeMenu={toggleMenu} />
-              <Socials />
+              <Socials section={'navigation'}/>
             </div>
           </motion.div>
         )}

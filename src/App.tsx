@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Layout } from "./components/Layout/Layout";
-import { Home } from "./components/Home/Home";
-import { About } from "./components/About/About";
-import { Projects } from "./components/Projects/Projects";
-import { Stack } from "./components/Stack/Stack";
-import { Contact } from "./components/Contact/Contact";
+import { Home } from "./sections/Home/Home";
+import { About } from "./sections/About/About";
+import { Projects } from "./sections/Projects/Projects";
+import { Stack } from "./sections/Stack/Stack";
+import { Contact } from "./sections/Contact/Contact";
 
 function App() {
   return (
