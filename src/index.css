@@ -22,4 +22,16 @@
   .contactsLink {
     @apply flex items-center gap-[12px];
   }
+
+  .formInput {
+    @apply bg-inputBg w-full p-[15px] rounded;
+  }
+
+  .errorInput {
+    @apply border border-error placeholder:text-error;
+  }
+
+  .formErrorMessage {
+    @apply absolute right-0 top-[-18px] text-[12px] text-error;
+  }
 }

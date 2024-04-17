@@ -66,9 +66,9 @@ export const Socials: React.FC<SocialProps> = ({ section }) => {
       <div>
         <h3 className="contactsHeader">Social</h3>
         <ul className="contactsList">
-          {socialLinks.map((el) => {
+          {socialLinks.map((el, id) => {
             return (
-              <li className="contactsItem ">
+              <li key={id} className="contactsItem ">
                 <Link to={el.link} className="contactsLink">
                   {el.icon} <p>{el.name}</p>
                 </Link>

@@ -22,14 +22,13 @@ export default {
       },
       colors: {
         text: "#666666",
-        accent: "#5680E9",
-        secondary: "#84CEEB",
-        bgColor: "#C1C8E4",
         white: "#FFF",
         black: "#1A1A1A",
         blackSecondary: "#333333",
         greenStatus: "#19B373",
         bgGreenStatus: "#E9FCF4",
+        inputBg: "#FAFAFA",
+        error: "#FF0000",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

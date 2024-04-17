@@ -19,9 +19,7 @@ export const Contact = () => {
           <Contacts />
           <Socials section="contact" />
         </div>
-        <div>
-          <Form />
-        </div>
+        <Form />
       </div>
     </section>
   );
