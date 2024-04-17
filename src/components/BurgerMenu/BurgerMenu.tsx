@@ -21,21 +21,21 @@ export const BurgerMenu = () => {
               closed: { rotate: 0, y: 0 },
               open: { rotate: 45, y: 6 },
             }}
-            className="w-5 h-[2px] bg-black block"
+            className="w-5 h-[2px] bg-text block"
           ></motion.span>
           <motion.span
             variants={{
               closed: { opacity: 1 },
               open: { opacity: 0 },
             }}
-            className="w-5 h-[2px] bg-black block"
+            className="w-5 h-[2px] bg-text block"
           ></motion.span>
           <motion.span
             variants={{
               closed: { rotate: 0, y: 0 },
               open: { rotate: -45, y: -6 },
             }}
-            className="w-5 h-[2px] bg-black block"
+            className="w-5 h-[2px] bg-text block"
           ></motion.span>
         </motion.button>
       </div>
@@ -62,7 +62,7 @@ export const BurgerMenu = () => {
           >
             <div className="container flex flex-col gap-[96px]">
               <Navigation closeMenu={toggleMenu} />
-              <Socials section={'navigation'}/>
+              <Socials section={"navigation"} />
             </div>
           </motion.div>
         )}

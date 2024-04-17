@@ -6,4 +6,20 @@
   .icons {
     @apply w-[20px] h-[20px];
   }
+
+  .contactsHeader {
+    @apply mb-[24px] font-bold text-[16px] text-blackSecondary;
+  }
+
+  .contactsList {
+    @apply flex flex-col gap-[12px];
+  }
+
+  .contactsItem {
+    @apply flex items-center gap-[12px] text-text py-[12px] pl-[16px] text-[14px];
+  }
+
+  .contactsLink {
+    @apply flex items-center gap-[12px];
+  }
 }

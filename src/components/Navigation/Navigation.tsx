@@ -51,7 +51,9 @@ export const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
                   onClick={closeMenu}
                   className={({ isActive }) =>
                     [
-                      isActive ? "text-black fill-black" : "text-accent",
+                      isActive
+                        ? "text-black fill-black font-semibold"
+                        : "text-text",
                       "flex flex-row justify-center items-center gap-[8px] text-[14px]",
                     ].join(" ")
                   }

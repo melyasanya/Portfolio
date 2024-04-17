@@ -10,10 +10,26 @@ import {
 import { containerVars, elementVars } from "../../constants/animations.ts";
 
 const socialLinks = [
-  { icon: <FaTelegramPlane className="icons" />, link: "/" },
-  { icon: <FaInstagram className="icons" />, link: "/" },
-  { icon: <FaLinkedinIn className="icons" />, link: "/" },
-  { icon: <FaGithubSquare className="icons" />, link: "/" },
+  {
+    icon: <FaTelegramPlane className="icons" />,
+    link: "https://t.me/melyasanya",
+    name: "Telegram",
+  },
+  {
+    icon: <FaInstagram className="icons" />,
+    link: "https://www.instagram.com/sanya_melnychenko/",
+    name: "Instagram",
+  },
+  {
+    icon: <FaLinkedinIn className="icons" />,
+    link: "https://www.linkedin.com/in/o-melnychenko/",
+    name: "Linkedin",
+  },
+  {
+    icon: <FaGithubSquare className="icons" />,
+    link: "https://github.com/melyasanya",
+    name: "Github",
+  },
 ];
 
 interface SocialProps {
@@ -28,7 +44,7 @@ export const Socials: React.FC<SocialProps> = ({ section }) => {
         initial="initial"
         animate="open"
         exit="initial"
-        className="flex flex-row border-t justify-between text-accent p-[12px]"
+        className="flex flex-row border-t justify-between text-text p-[12px]"
       >
         {socialLinks.map((el, id) => {
           return (
@@ -45,5 +61,21 @@ export const Socials: React.FC<SocialProps> = ({ section }) => {
       </motion.ul>
     );
 
-  if (section === "contact") return <div></div>;
+  if (section === "contact")
+    return (
+      <div>
+        <h3 className="contactsHeader">Social</h3>
+        <ul className="contactsList">
+          {socialLinks.map((el) => {
+            return (
+              <li className="contactsItem ">
+                <Link to={el.link} className="contactsLink">
+                  {el.icon} <p>{el.name}</p>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    );
 };
