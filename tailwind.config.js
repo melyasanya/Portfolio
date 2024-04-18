@@ -29,6 +29,7 @@ export default {
         bgGreenStatus: "#E9FCF4",
         inputBg: "#FAFAFA",
         error: "#FF0000",
+        activeLink: "#eeeeee",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

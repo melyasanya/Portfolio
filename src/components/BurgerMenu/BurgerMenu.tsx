@@ -60,7 +60,7 @@ export const BurgerMenu = () => {
             }}
             className="bg-white absolute left-0 top-[97px] w-full  origin-top border-b-[10px] border-black"
           >
-            <div className="container flex flex-col gap-[96px]">
+            <div className="container flex flex-col gap-[72px]">
               <Navigation closeMenu={toggleMenu} />
               <Socials section={"navigation"} />
             </div>

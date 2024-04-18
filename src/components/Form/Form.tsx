@@ -1,22 +1,43 @@
+import { useState } from "react";
 import { useFormik } from "formik";
+
 import { FormSchema } from "../../schemas/formSchema";
+import { sendMessage } from "../../utils/sendMessage";
+import { Loader } from "../Loader/Loader";
+import { Notification } from "../Notification/Notification";
 
 export const Form = () => {
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [notificationState, setNotificationState] = useState<string | null>(
+    null
+  );
+
   const formik = useFormik({
     initialValues: {
       name: "",
       email: "",
       message: "",
     },
+
     validationSchema: FormSchema,
-    onSubmit: (values, { resetForm }) => {
-      console.log(values);
-      resetForm();
+
+    onSubmit: async (values, { resetForm }) => {
+      const { name, email, message } = values;
+      setIsLoading(true);
+      try {
+        await sendMessage(name, email, message);
+        resetForm();
+        setNotificationState("Correct");
+        setIsLoading(false);
+      } catch {
+        setIsLoading(false);
+        setNotificationState("Incorrect");
+      }
     },
   });
 
   return (
-    <div className="py-[48px]">
+    <div className="pt-[48px] pb-[60px] relative">
       <h3 className="contactsHeader">Get in Touch</h3>
       <form className="flex flex-col gap-[20px]" onSubmit={formik.handleSubmit}>
         <label htmlFor="name" className="relative">
@@ -74,11 +95,15 @@ export const Form = () => {
         </label>
         <button
           type="submit"
-          className="bg-black text-white p-[15px] font-semibold text-[16px] rounded"
+          className="bg-black text-white p-[15px] font-semibold text-[16px] rounded relative flex justify-center items-center"
         >
-          Send Message
+          {isLoading ? <Loader /> : "Send Message"}
         </button>
       </form>
+
+      {notificationState && (
+        <Notification notificationState={notificationState} />
+      )}
     </div>
   );
 };

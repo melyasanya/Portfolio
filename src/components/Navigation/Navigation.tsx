@@ -40,11 +40,11 @@ export const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
         initial="initial"
         animate="open"
         exit="initial"
-        className="flex flex-col  items-start gap-[48px] pt-[60px] pl-[24px]"
+        className="flex flex-col items-center pt-[12px]"
       >
         {navigationOptions.map((el, id) => {
           return (
-            <li className="overflow-hidden" key={id}>
+            <li className="overflow-hidden w-full text-left" key={id}>
               <motion.div variants={elementVars}>
                 <NavLink
                   to={el.href}
@@ -54,7 +54,7 @@ export const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
                       isActive
                         ? "text-black fill-black font-semibold"
                         : "text-text",
-                      "flex flex-row justify-center items-center gap-[8px] text-[14px]",
+                      "flex flex-row justify-star items-center gap-[8px] text-[14px] p-[24px] active:bg-activeLink active:rounded",
                     ].join(" ")
                   }
                 >
