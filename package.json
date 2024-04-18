@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-email/text": "0.0.7",
     "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
     "formik": "^2.4.5",
     "framer-motion": "^11.0.28",
     "react": "^18.2.0",
@@ -23,6 +24,8 @@
     "yup": "^1.4.0"
   },
   "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.5",
+    "@types/node": "^20.12.7",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
