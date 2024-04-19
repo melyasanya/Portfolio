@@ -15,16 +15,14 @@ export const Notification: React.FC<NotificationProps> = ({
       {notificationCheck ? (
         <>
           <IoIosCheckmark className="w-[32px] h-[32px] text-greenStatus " />
-          <p className="text-greenStatus text-[14px] w-max">
+          <p className="text-greenStatus text-base w-max">
             Your message has been sent
           </p>
         </>
       ) : (
         <>
           <IoIosClose className="w-[32px] h-[32px] text-error" />
-          <p className="text-error text-[14px] w-max">
-            Message hasn't been sent
-          </p>
+          <p className="text-error text-base w-max">Message hasn't been sent</p>
         </>
       )}
     </div>

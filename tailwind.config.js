@@ -35,12 +35,11 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       fontSize: {
-        extraSmall: "8px",
         small: "12px",
         base: "14px",
         middle: "16px",
         medium: "18px",
-        large: "24px",
+        extraLarge: "36px",
       },
     },
   },

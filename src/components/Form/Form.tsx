@@ -95,7 +95,7 @@ export const Form = () => {
         </label>
         <button
           type="submit"
-          className="bg-black text-white p-[15px] font-semibold text-[16px] rounded relative flex justify-center items-center"
+          className="bg-black text-white p-[15px] font-semibold text-middle rounded relative flex justify-center items-center"
         >
           {isLoading ? <Loader /> : "Send Message"}
         </button>

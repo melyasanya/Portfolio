@@ -54,7 +54,7 @@ export const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
                       isActive
                         ? "text-black fill-black font-semibold"
                         : "text-text",
-                      "flex flex-row justify-star items-center gap-[8px] text-[14px] p-[24px] active:bg-activeLink active:rounded",
+                      "flex flex-row justify-star items-center gap-[8px] text-base p-[24px] active:bg-activeLink active:rounded",
                     ].join(" ")
                   }
                 >

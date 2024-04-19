@@ -7,10 +7,10 @@ export const Contact = () => {
     <section>
       <div>
         <div className="pb-[48px] border-b">
-          <h2 className="text-[36px] font-bold mb-[12px] text-black">
+          <h2 className="text-extraLarge font-bold mb-[12px] text-black">
             Let's Connect!
           </h2>
-          <p className="max-w-[400px] text-text font-light text-[14px]">
+          <p className="max-w-[400px] text-text font-light text-base">
             Feel free to reach out with your project, questions or to connect.
             I'll respond promptly and we can explore opportunities together
           </p>

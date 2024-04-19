@@ -9,10 +9,10 @@ export const Introduction = () => {
         className="w-[48px] h-[48px] rounded border"
       />
       <div>
-        <p className="text-[18px] font-medium text-black">
+        <p className="text-medium font-medium text-black">
           Oleksandr Melnychenko
         </p>
-        <p className="text-text text-[14px]">Full-Stack Developer</p>
+        <p className="text-text text-base">Full-Stack Developer</p>
       </div>
     </div>
   );

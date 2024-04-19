@@ -8,7 +8,7 @@
   }
 
   .contactsHeader {
-    @apply mb-[24px] font-bold text-[16px] text-blackSecondary;
+    @apply mb-[24px] font-bold text-middle text-blackSecondary;
   }
 
   .contactsList {
@@ -32,6 +32,6 @@
   }
 
   .formErrorMessage {
-    @apply absolute right-0 top-[-18px] text-[12px] text-error;
+    @apply absolute right-0 top-[-18px] text-small text-error;
   }
 }
