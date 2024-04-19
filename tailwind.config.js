@@ -27,7 +27,7 @@ export default {
         blackSecondary: "#333333",
         greenStatus: "#19B373",
         bgGreenStatus: "#E9FCF4",
-        inputBg: "#FAFAFA",
+        bgColor: "#FAFAFA",
         error: "#FF0000",
         activeLink: "#eeeeee",
       },

@@ -24,7 +24,7 @@
   }
 
   .formInput {
-    @apply bg-inputBg w-full p-[15px] rounded;
+    @apply bg-bgColor w-full p-[15px] rounded;
   }
 
   .errorInput {
