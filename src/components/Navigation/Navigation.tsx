@@ -40,7 +40,7 @@ export const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
         initial="initial"
         animate="open"
         exit="initial"
-        className="flex flex-col items-center pt-[12px]"
+        className="flex flex-col items-center pt-small"
       >
         {navigationOptions.map((el, id) => {
           return (
@@ -54,7 +54,7 @@ export const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
                       isActive
                         ? "text-black fill-black font-semibold"
                         : "text-text",
-                      "flex flex-row justify-star items-center gap-[8px] text-base p-[24px] active:bg-activeLink active:rounded",
+                      "flex flex-row justify-star items-center gap-extraSmall text-base p-base active:bg-activeLink active:rounded",
                     ].join(" ")
                   }
                 >

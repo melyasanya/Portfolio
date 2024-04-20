@@ -6,8 +6,8 @@ export const Contact = () => {
   return (
     <section>
       <div>
-        <div className="pb-[48px] border-b">
-          <h2 className="text-extraLarge font-bold mb-[12px] text-black">
+        <div className="pb-medium border-b">
+          <h2 className="text-extraLarge font-bold mb-small text-black">
             Let's Connect!
           </h2>
           <p className="max-w-[400px] text-text font-light text-base">
@@ -15,7 +15,7 @@ export const Contact = () => {
             I'll respond promptly and we can explore opportunities together
           </p>
         </div>
-        <div className="pt-[48px] pb-[24px] flex flex-col gap-[48px] border-b">
+        <div className="pt-medium pb-base flex flex-col gap-medium border-b">
           <Contacts />
           <Socials section="contact" />
         </div>

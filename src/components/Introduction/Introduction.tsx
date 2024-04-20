@@ -2,11 +2,11 @@ import MyPhoto from "../../assets/images/avatar.jpg";
 
 export const Introduction = () => {
   return (
-    <div className="flex gap-[8px]">
+    <div className="flex gap-extraSmall">
       <img
         src={MyPhoto}
         alt="My photo"
-        className="w-[48px] h-[48px] rounded border"
+        className="w-medium h-medium rounded border"
       />
       <div>
         <p className="text-medium font-medium text-black">

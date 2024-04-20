@@ -12,12 +12,12 @@ export const Layout = () => {
   return (
     <>
       <header className="border-b">
-        <div className="container flex justify-between items-center py-[24px]">
+        <div className="container flex justify-between items-center py-base">
           <Introduction />
           {isMobile && <BurgerMenu />}
         </div>
       </header>
-      <main className="container pt-[24px]">
+      <main className="container pt-base">
         <WorkStatus />
         <Outlet />
       </main>

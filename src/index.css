@@ -8,19 +8,19 @@
   }
 
   .contactsHeader {
-    @apply mb-[24px] font-bold text-middle text-blackSecondary;
+    @apply mb-small font-bold text-middle text-blackSecondary;
   }
 
   .contactsList {
-    @apply flex flex-col gap-[12px];
+    @apply flex flex-col gap-small;
   }
 
   .contactsItem {
-    @apply flex items-center gap-[12px] text-text py-[12px] pl-[16px] text-[14px];
+    @apply flex items-center gap-small text-text py-small pl-[16px] text-base;
   }
 
   .contactsLink {
-    @apply flex items-center gap-[12px];
+    @apply flex items-center gap-small;
   }
 
   .formInput {

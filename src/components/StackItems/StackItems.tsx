@@ -2,11 +2,11 @@ import { stackItems } from "../../utils/stackItems";
 
 export const StackItems = () => {
   return (
-    <ul className="flex flex-col gap-[24px]">
+    <ul className="flex flex-col gap-base">
       {stackItems.map((el) => {
         return (
-          <div className="bg-bgColor rounded p-[24px] flex flex-col gap-[24px]">
-            <div className="flex gap-[12px] items-center">
+          <div className="bg-bgColor rounded p-base flex flex-col gap-base">
+            <div className="flex gap-small items-center">
               <img src={el.logo} alt="logo" className="w-[44px] h-[44px]" />
               <div>
                 <p className="text-medium font-semibold text-black">

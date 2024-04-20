@@ -44,12 +44,12 @@ export const Socials: React.FC<SocialProps> = ({ section }) => {
         initial="initial"
         animate="open"
         exit="initial"
-        className="flex flex-row border-t justify-between text-text p-[12px]"
+        className="flex flex-row border-t justify-between text-text p-small"
       >
         {socialLinks.map((el, id) => {
           return (
             <li
-              className=" overflow-hidden flex justify-center items-center p-[12px]"
+              className=" overflow-hidden flex justify-center items-center p-small"
               key={id}
             >
               <motion.div variants={elementVars}>

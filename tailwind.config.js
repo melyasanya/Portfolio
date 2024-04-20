@@ -41,6 +41,12 @@ export default {
         medium: "18px",
         extraLarge: "36px",
       },
+      spacing: {
+        extraSmall: "8px",
+        small: "12px",
+        base: "24px",
+        medium: "48px",
+      },
     },
   },
   plugins: [],

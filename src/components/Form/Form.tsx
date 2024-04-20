@@ -37,7 +37,7 @@ export const Form = () => {
   });
 
   return (
-    <div className="pt-[48px] pb-[60px] relative">
+    <div className="pt-medium pb-[60px] relative">
       <h3 className="contactsHeader">Get in Touch</h3>
       <form className="flex flex-col gap-[20px]" onSubmit={formik.handleSubmit}>
         <label htmlFor="name" className="relative">
