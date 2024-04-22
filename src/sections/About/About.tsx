@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <section>
       <AboutMe />
-      <div className="py-medium flex flex-col gap-medium">
+      <div className="py-medium flex flex-col gap-medium border-b">
         <AboutEducation />
         <AboutStack />
       </div>

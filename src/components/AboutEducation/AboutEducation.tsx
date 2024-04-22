@@ -3,7 +3,7 @@ import { AboutBtn } from "../AboutBtn/AboutBtn";
 export const AboutEducation = () => {
   return (
     <div className="flex flex-col gap-base">
-      <h2 className="text-black text-large font-bold">Education</h2>
+      <h2 className="aboutHeader">Education</h2>
       <p className="text-justify text-base font-light text-text">
         I underwent intensive training as a Full-stack Developer at GOIT, where
         I acquired comprehensive skills in web development, covering both

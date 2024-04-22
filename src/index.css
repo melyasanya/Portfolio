@@ -35,7 +35,11 @@
     @apply absolute right-0 top-[-18px] text-small text-error;
   }
 
-  .aboutBtn {
-    @apply text-text py-small border border-black rounded active:bg-activeLink;
+  .aboutHeader {
+    @apply text-black text-large font-bold;
+  }
+
+  .experienceText {
+    @apply text-text text-base font-light;
   }
 }
