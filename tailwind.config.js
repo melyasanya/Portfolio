@@ -39,6 +39,7 @@ export default {
         base: "14px",
         middle: "16px",
         medium: "18px",
+        large: "24px",
         extraLarge: "36px",
       },
       spacing: {

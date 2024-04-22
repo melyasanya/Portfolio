@@ -7,7 +7,11 @@ export const StackItems = () => {
         return (
           <div className="bg-bgColor rounded p-base flex flex-col gap-base">
             <div className="flex gap-small items-center">
-              <img src={el.logo} alt="logo" className="w-[44px] h-[44px]" />
+              <img
+                src={el.logo}
+                alt={`${el.name} logo`}
+                className="w-[44px] h-[44px]"
+              />
               <div>
                 <p className="text-medium font-semibold text-black">
                   {el.name}

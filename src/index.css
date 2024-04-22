@@ -34,4 +34,8 @@
   .formErrorMessage {
     @apply absolute right-0 top-[-18px] text-small text-error;
   }
+
+  .aboutBtn {
+    @apply text-text py-small border border-black rounded active:bg-activeLink;
+  }
 }
