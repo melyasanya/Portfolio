@@ -1,4 +1,4 @@
-import { AboutBtn } from "../AboutBtn/AboutBtn";
+import { ForwardBtn } from "../ForwardBtn/ForwardBtn";
 import { ExperienceItems } from "../ExperienceItems/ExperienceItems";
 
 export const AboutExperience = () => {
@@ -6,7 +6,7 @@ export const AboutExperience = () => {
     <div className="py-medium flex flex-col gap-base">
       <h2 className="aboutHeader">Experience</h2>
       <ExperienceItems />
-      <AboutBtn navLink="contact" content="Contact Me" />
+      <ForwardBtn navLink="contact" content="Contact Me" />
     </div>
   );
 };

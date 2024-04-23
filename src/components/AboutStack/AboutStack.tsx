@@ -1,4 +1,4 @@
-import { AboutBtn } from "../AboutBtn/AboutBtn";
+import { ForwardBtn } from "../ForwardBtn/ForwardBtn";
 
 export const AboutStack = () => {
   return (
@@ -11,7 +11,7 @@ export const AboutStack = () => {
         build efficient, modern full-stack web applications with ease, ensuring
         seamless functionality across devices.
       </p>
-      <AboutBtn navLink="stack" content="View Stack" />
+      <ForwardBtn navLink="stack" content="View Stack" />
     </div>
   );
 };

@@ -1,7 +1,20 @@
-import { projectItems } from "../../utils/projectItems";
 import { ProjectItemsLinks } from "../ProjectItemsLinks/ProjectItemsLinks";
 
-export const ProjectItems = () => {
+interface ProjectItemsProps {
+  projectItems: {
+    name: string;
+    descr: string;
+    technologies: string;
+    image: string;
+    links: {
+      linkDescr: string;
+      link: string;
+    }[];
+    status: string;
+  }[];
+}
+
+export const ProjectItems: React.FC<ProjectItemsProps> = ({ projectItems }) => {
   return (
     <ul className="flex flex-col gap-base">
       {projectItems.map((el, id) => {

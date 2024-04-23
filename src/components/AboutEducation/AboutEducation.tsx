@@ -1,4 +1,4 @@
-import { AboutBtn } from "../AboutBtn/AboutBtn";
+import { ForwardBtn } from "../ForwardBtn/ForwardBtn";
 
 export const AboutEducation = () => {
   return (
@@ -16,7 +16,7 @@ export const AboutEducation = () => {
         Master's degrees in Public Relations and Management in Healthcare,
         further broadening my communication and management skills.
       </p>
-      <AboutBtn navLink="projects" content="View Projects" />
+      <ForwardBtn navLink="projects" content="View Projects" />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import { ProjectItems } from "../../components/ProjectItems/ProjectItems";
+import { projectItems } from "../../utils/projectItems";
 
 export const Projects = () => {
   return (
@@ -8,7 +9,7 @@ export const Projects = () => {
           Projects: Showcasing <br />
           My Journey
         </h1>
-        <ProjectItems />
+        <ProjectItems projectItems={projectItems} />
       </div>
     </section>
   );
