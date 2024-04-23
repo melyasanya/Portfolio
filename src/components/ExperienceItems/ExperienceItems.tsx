@@ -3,9 +3,12 @@ import { experienceItems } from "../../utils/experienceItems";
 export const ExperienceItems = () => {
   return (
     <ul className="flex flex-col gap-base">
-      {experienceItems.map((el) => {
+      {experienceItems.map((el, id) => {
         return (
-          <li className="p-base bg-bgColor rounded flex flex-col gap-small">
+          <li
+            key={id}
+            className="p-base bg-bgColor rounded flex flex-col gap-small"
+          >
             <div className="flex flex-col gap-[2px]">
               <h3 className="text-medium text-black font-semibold">
                 {el.position}

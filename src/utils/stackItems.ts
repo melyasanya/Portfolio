@@ -12,14 +12,14 @@ import MongoLogo from "../assets/images/MongoDB_Logo.png";
 
 export const stackItems = [
   {
-    name: "HTML",
+    name: "HTML5",
     logo: HtmlLogo,
     shortDescr: "Structure and Content",
     longDescr:
       "I use HTML in web development to provide the backbone for organizing and presenting content in a web page. It ensures that websites are semantically meaningful and accessible, forming the foundation upon which I build the visual elements of a site.",
   },
   {
-    name: "CSS",
+    name: "CSS3",
     logo: CssLogo,
     shortDescr: "Styling and Layout ",
     longDescr:

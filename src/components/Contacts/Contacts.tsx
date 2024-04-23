@@ -28,6 +28,7 @@ export const Contacts = () => {
               <Link
                 className="contactsLink"
                 to="#"
+                target="_blank"
                 onClick={(e) => {
                   window.location.href = el.value;
                   e.preventDefault();

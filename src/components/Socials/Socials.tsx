@@ -53,7 +53,9 @@ export const Socials: React.FC<SocialProps> = ({ section }) => {
               key={id}
             >
               <motion.div variants={elementVars}>
-                <Link to={el.link}>{el.icon}</Link>
+                <Link to={el.link} target="_blank">
+                  {el.icon}
+                </Link>
               </motion.div>
             </li>
           );
@@ -69,7 +71,7 @@ export const Socials: React.FC<SocialProps> = ({ section }) => {
           {socialLinks.map((el, id) => {
             return (
               <li key={id} className="contactsItem ">
-                <Link to={el.link} className="contactsLink">
+                <Link to={el.link} target="_blank" className="contactsLink">
                   {el.icon} <p>{el.name}</p>
                 </Link>
               </li>
