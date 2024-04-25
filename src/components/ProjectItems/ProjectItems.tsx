@@ -16,12 +16,15 @@ interface ProjectItemsProps {
 
 export const ProjectItems: React.FC<ProjectItemsProps> = ({ projectItems }) => {
   return (
-    <ul className="flex flex-col gap-base">
+    <ul className="flex flex-col gap-base md:flex-row md:w-full">
       {projectItems.map((el, id) => {
         return (
-          <li key={id} className="p-small bg-bgColor flex flex-col gap-small">
+          <li
+            key={id}
+            className="rounded p-small bg-bgColor flex flex-col gap-small md:w-full"
+          >
             <img src={el.image} alt={`${el.name} image`} />
-            <div className="flex flex-col gap-[6px]">
+            <div className="flex flex-col gap-[6px] md:h-full">
               <div className="flex justify-between">
                 <div>
                   <p className="text-base text-text font-light uppercase">
@@ -35,7 +38,7 @@ export const ProjectItems: React.FC<ProjectItemsProps> = ({ projectItems }) => {
                   {el.technologies}
                 </p>
               </div>
-              <p className="text-text text-base font-light text-justify">
+              <p className="text-text text-base font-light text-justify md:mb-auto">
                 {el.descr}
               </p>
               <ProjectItemsLinks links={el.links} />

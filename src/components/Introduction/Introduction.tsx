@@ -9,7 +9,7 @@ export const Introduction = () => {
         className="w-medium h-medium rounded border md:w-[68px] md:h-[68px]"
       />
       <div>
-        <p className="text-medium font-medium text-black md:text-center">
+        <p className="text-medium font-semibold text-black md:text-center">
           Oleksandr Melnychenko
         </p>
         <p className="text-text text-base md:text-center">

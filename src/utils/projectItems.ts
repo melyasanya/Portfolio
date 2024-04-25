@@ -36,7 +36,7 @@ export const projectItems = [
         link: "https://github.com/Sat98Ram/power-pulse-goit",
       },
     ],
-    status: "Educational Team Project",
+    status: "Team Project",
   },
   {
     name: "Money Guard",
@@ -54,7 +54,7 @@ export const projectItems = [
         link: "https://github.com/Yana2393/project_money_guard",
       },
     ],
-    status: "Educational Team Project",
+    status: "Team Project",
   },
   {
     name: "Marvelous adventures",
@@ -72,7 +72,7 @@ export const projectItems = [
         link: "https://github.com/Favixx/thedebuggers-goit-team-project",
       },
     ],
-    status: "Educational Team Project",
+    status: "Team Project",
   },
   {
     name: "Simply Chocolate",
@@ -90,6 +90,6 @@ export const projectItems = [
         link: "https://github.com/olegvoskovets/project-html-css-53-bootcamp",
       },
     ],
-    status: "Educational Team Project",
+    status: "Team Project",
   },
 ];

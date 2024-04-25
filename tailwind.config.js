@@ -5,21 +5,12 @@ export default {
     screens: {
       sm: "480px",
       md: "768px",
-      xl: "1440px",
+      xl: "1200px",
       dpr: {
         raw: "screen and (min-device-pixel-ratio: 2)",
       },
     },
     extend: {
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "1.25rem",
-          sm: "1.25rem",
-          md: "2.5rem",
-          xl: "5rem",
-        },
-      },
       colors: {
         text: "#666666",
         white: "#FFF",
