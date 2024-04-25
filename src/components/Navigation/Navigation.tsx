@@ -5,7 +5,7 @@ import { containerVars, elementVars } from "../../constants/animations.ts";
 import { GoBriefcase, GoHome, GoPerson, GoRead, GoStack } from "react-icons/go";
 
 interface NavigationProps {
-  closeMenu: () => void;
+  closeMenu?: () => void;
 }
 
 const navigationOptions = [
@@ -51,15 +51,13 @@ export const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
                   onClick={closeMenu}
                   className={({ isActive }) =>
                     [
-                      isActive
-                        ? "text-black fill-black font-semibold"
-                        : "text-text",
-                      "flex flex-row justify-star items-center gap-extraSmall text-base p-base active:bg-activeLink active:rounded",
+                      isActive ? "text-black font-semibold" : "text-text",
+                      "flex flex-row items-center gap-extraSmall text-base p-base active:bg-activeLink active:rounded md:p-small",
                     ].join(" ")
                   }
                 >
                   {el.icon}
-                  {el.name}
+                  <p className="md:hidden">{el.name}</p>
                 </NavLink>
               </motion.div>
             </li>
