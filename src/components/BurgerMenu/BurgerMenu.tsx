@@ -61,9 +61,9 @@ export const BurgerMenu = () => {
                 ease: [0.22, 1, 0.36, 1],
               },
             }}
-            className="bg-white absolute left-0 top-[97px] w-full origin-top z-50 border-b h-screen"
+            className="bg-white absolute left-0 top-[97px] w-full origin-top z-50 border-b h-[calc(100vh-97px)]"
           >
-            <div className="container flex flex-col justify-between h-screen">
+            <div className="container flex flex-col justify-between h-[calc(100vh-97px)]">
               <Navigation closeMenu={toggleMenu} />
               <Socials section={"navigation"} />
             </div>
