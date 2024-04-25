@@ -6,7 +6,10 @@ import { Socials } from "../Socials/Socials";
 export const BurgerMenu = () => {
   const [active, setActive] = useState(false);
 
-  const toggleMenu = () => setActive(!active);
+  const toggleMenu = () => {
+    setActive(!active);
+    document.body.style.overflow = active ? "auto" : "hidden";
+  };
 
   return (
     <>
@@ -53,14 +56,14 @@ export const BurgerMenu = () => {
             exit={{
               scaleY: 0,
               transition: {
-                delay: 0.5,
-                duration: 0.5,
+                delay: 0.25,
+                duration: 0.25,
                 ease: [0.22, 1, 0.36, 1],
               },
             }}
-            className="bg-white absolute left-0 top-[97px] w-full origin-top h-screen z-50"
+            className="bg-white absolute left-0 top-[97px] w-full origin-top z-50 border-b"
           >
-            <div className="container flex flex-col justify-between h-screen">
+            <div className="container flex flex-col gap-[72px]">
               <Navigation closeMenu={toggleMenu} />
               <Socials section={"navigation"} />
             </div>

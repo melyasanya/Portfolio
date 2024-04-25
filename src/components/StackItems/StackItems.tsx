@@ -1,4 +1,5 @@
 import { stackItems } from "../../utils/stackItems";
+
 import { StackItemShortDescr } from "../StackItemShortDescr/StackItemShortDescr";
 
 export const StackItems = () => {
