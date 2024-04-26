@@ -7,7 +7,7 @@ export const ExperienceItems = () => {
         return (
           <li
             key={id}
-            className="p-base bg-bgColor rounded flex flex-col gap-small"
+            className="p-base bg-bgColor rounded flex flex-col gap-small md:grid md:grid-cols-2 md:gap-medium "
           >
             <div className="flex flex-col gap-[2px]">
               <h3 className="text-medium text-black font-semibold">
@@ -16,7 +16,9 @@ export const ExperienceItems = () => {
               <p className="experienceText">{el.companyName}</p>
               <p className="experienceText">{el.timeLine}</p>
             </div>
-            <p className="experienceText text-justify">{el.descr}</p>
+            <p className="experienceText text-justify md:text-middle">
+              {el.descr}
+            </p>
           </li>
         );
       })}

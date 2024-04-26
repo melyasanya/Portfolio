@@ -11,7 +11,7 @@ export const About = () => {
         <AboutMe />
       </Reveal>
       <Reveal>
-        <div className="py-medium flex flex-col gap-medium border-b">
+        <div className="py-medium flex flex-col gap-medium border-b md:grid md:grid-cols-2">
           <AboutEducation />
           <AboutStack />
         </div>

@@ -36,7 +36,7 @@
   }
 
   .aboutHeader {
-    @apply text-black text-large font-bold;
+    @apply text-black text-large font-bold md:text-[28px] xl:text-[36px];
   }
 
   .experienceText {
