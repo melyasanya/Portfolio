@@ -11,7 +11,7 @@ export const HomeProjects = () => {
 
   return (
     <div className="py-medium flex flex-col gap-base border-b w-full m-0">
-      <h2 className="text-large text-black font-bold md:text-[28px]">
+      <h2 className="text-large text-black font-bold md:text-[28px] xl:text-[36px]">
         Recent Projects
       </h2>
       <ProjectItems projectItems={recentProjectItems} />

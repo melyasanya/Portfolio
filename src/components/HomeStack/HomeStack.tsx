@@ -33,13 +33,15 @@ export const HomeStack = () => {
 
   return (
     <div className="flex flex-col gap-base py-medium">
-      <h2 className="text-large text-black font-bold">Stack</h2>
-      <ul className="flex flex-col gap-base md:grid md:auto-rows-min md:grid-cols-2">
+      <h2 className="text-large text-black font-bold md:text-[28px] xl:text-[36px]">
+        Stack
+      </h2>
+      <ul className="flex flex-col gap-base md:grid md:auto-rows-min md:grid-cols-2 xl:grid-cols-3">
         {topStackItems.map((el, id) => {
           return (
             <li
               key={id}
-              className="bg-bgColor rounded p-base flex flex-col gap-base md:w-full"
+              className="bg-bgColor rounded p-base flex flex-col justify-center gap-base md:w-full"
             >
               <StackItemShortDescr
                 logo={el.logo}

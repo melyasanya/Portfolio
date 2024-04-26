@@ -2,15 +2,19 @@ import AboutImage from "../../assets/images/avatar.jpg";
 
 export const AboutMe = () => {
   return (
-    <div className="flex flex-col gap-base pb-medium border-b">
-      <img src={AboutImage} alt="My photo" className="rounded" />
-      <div className="flex flex-col gap-base">
-        <h1 className="text-extraLarge text-black font-bold leading-none">
+    <div className="flex flex-col gap-base pb-medium border-b md:grid md:grid-cols-2 ">
+      <img
+        src={AboutImage}
+        alt="My photo"
+        className="rounded md:w-full md:h-full md:order-last md:object-cover md:max-h-[528px] xl:max-h-[454px]"
+      />
+      <div className="flex flex-col gap-base ">
+        <h1 className="text-extraLarge text-black font-bold leading-none md:text-[44px] xl:text-[52px]">
           About Me:
           <br />
           Passionate coder, crafting innovative solutions.
         </h1>
-        <p className="text-justify text-text text-base font-light">
+        <p className="text-justify text-text text-base font-light md:text-middle">
           Passionate about coding and driven by innovation, I thrive in
           collaborative environments, constantly seeking to craft elegant
           solutions and contribute effectively to dynamic teams. With a keen eye

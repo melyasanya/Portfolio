@@ -2,7 +2,7 @@ import MyPhoto from "../../assets/images/avatar.jpg";
 
 export const Introduction = () => {
   return (
-    <div className="flex gap-extraSmall md:flex-col md:gap-small md:items-center md:pb-base md:border-b">
+    <div className="flex gap-extraSmall md:flex-col md:gap-small md:items-center md:pb-base md:border-b xl:flex-row xl:justify-start xl:pb-medium">
       <img
         src={MyPhoto}
         alt="My photo"

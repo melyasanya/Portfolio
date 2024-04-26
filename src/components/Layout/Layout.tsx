@@ -8,7 +8,7 @@ export const Layout = () => {
   return (
     <>
       <Header />
-      <main className="px-base pt-base md:ml-[180px] md:px-[48px]">
+      <main className="px-base pt-base md:ml-[180px] md:px-[48px] xl:ml-[320px]">
         <WorkStatus />
         <Outlet />
       </main>
