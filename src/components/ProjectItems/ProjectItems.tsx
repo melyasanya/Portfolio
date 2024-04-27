@@ -34,7 +34,7 @@ export const ProjectItems: React.FC<ProjectItemsProps> = ({ projectItems }) => {
                     {el.name}
                   </p>
                 </div>
-                <p className="text-base text-text font-bold">
+                <p className="text-base text-text font-bold text-right">
                   {el.technologies}
                 </p>
               </div>
