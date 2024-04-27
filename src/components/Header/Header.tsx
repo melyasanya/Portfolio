@@ -21,7 +21,7 @@ export const Header = () => {
           : "header"
       }
     >
-      <div className="flex justify-between items-center p-base md:flex-col md:px-base md:pt-base md:pb-small md:h-full md:justify-normal xl:pb-[36px] xl:pt-medium">
+      <div className="flex justify-between items-center p-base md:flex-col md:px-base md:pt-base md:pb-small md:h-full md:justify-normal xl:pb-middle xl:pt-medium">
         <Introduction />
         {!isMobile && (
           <div className="flex flex-col justify-between items-center h-full w-full">

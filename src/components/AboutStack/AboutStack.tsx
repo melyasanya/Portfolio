@@ -3,7 +3,7 @@ import { ForwardBtn } from "../ForwardBtn/ForwardBtn";
 export const AboutStack = () => {
   return (
     <div className="flex flex-col gap-base">
-      <h2 className="aboutHeader">Stack</h2>
+      <h2>Stack</h2>
       <p className="text-justify text-base font-light text-text md:text-middle">
         My toolkit features React for dynamic interfaces, Node.js and Express.js
         for server-side robustness, MongoDB for flexible data management, and

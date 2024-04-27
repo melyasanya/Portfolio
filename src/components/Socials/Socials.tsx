@@ -44,7 +44,7 @@ export const Socials: React.FC<SocialProps> = ({ section }) => {
         initial="initial"
         animate="open"
         exit="initial"
-        className="flex flex-row border-t justify-between text-text p-small md:flex-col md:w-full xl:flex-row xl:pt-[36px] xl:pb-0"
+        className="flex flex-row border-t justify-between text-text p-small md:flex-col md:w-full xl:flex-row xl:pt-middle xl:pb-0"
       >
         {socialLinks.map((el, id) => {
           return (

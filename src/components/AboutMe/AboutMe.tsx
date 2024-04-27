@@ -9,7 +9,7 @@ export const AboutMe = () => {
         className="rounded md:w-full md:h-full md:order-last md:object-cover md:max-h-[528px] xl:max-h-[454px]"
       />
       <div className="flex flex-col gap-base ">
-        <h1 className="text-extraLarge text-black font-bold leading-none md:text-[44px] xl:text-[52px]">
+        <h1>
           About Me:
           <br />
           Passionate coder, crafting innovative solutions.

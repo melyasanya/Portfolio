@@ -1,41 +1,14 @@
-import { useMediaQuery } from "react-responsive";
 import { stackItems } from "../../utils/stackItems";
 import { ForwardBtn } from "../ForwardBtn/ForwardBtn";
 import { StackItemShortDescr } from "../StackItemShortDescr/StackItemShortDescr";
+import { useDisplayStack } from "../../hooks/useDisplayStack";
 
 export const HomeStack = () => {
-  const isMobile = useMediaQuery({ maxWidth: 767 });
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1199 });
-  const isDesktop = useMediaQuery({ minWidth: 1200 });
-
-  const topStack = [
-    "Javascript",
-    "React",
-    "Node.js",
-    "Typescript",
-    "HTML5",
-    "CSS3",
-  ];
-
-  let displayedStack = [...topStack];
-
-  if (isMobile) {
-    displayedStack = topStack.slice(0, 3); // Вирізаємо перші три елементи для мобільного екрану
-  } else if (isTablet) {
-    displayedStack = topStack.slice(0, 4); // Вирізаємо перші чотири елементи для планшетного екрану
-  } else if (isDesktop) {
-    displayedStack = [...topStack];
-  }
-
-  const topStackItems = stackItems.filter((el) =>
-    displayedStack.includes(el.name)
-  );
+  const topStackItems = useDisplayStack(stackItems);
 
   return (
     <div className="flex flex-col gap-base py-medium">
-      <h2 className="text-large text-black font-bold md:text-[28px] xl:text-[36px]">
-        Stack
-      </h2>
+      <h2>Stack</h2>
       <ul className="flex flex-col gap-base md:grid md:auto-rows-min md:grid-cols-2 xl:grid-cols-3">
         {topStackItems.map((el, id) => {
           return (

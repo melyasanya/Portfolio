@@ -9,9 +9,7 @@ export const Contact = () => {
       <div>
         <Reveal>
           <div className="pb-medium border-b">
-            <h2 className="text-extraLarge font-bold mb-small text-black md:text-[44px] xl:text-[52px]">
-              Let's Connect!
-            </h2>
+            <h1 className="mb-small">Let's Connect!</h1>
             <p className="max-w-[400px] text-text font-light text-base md:text-middle">
               Feel free to reach out with your project, questions or to connect.
               I'll respond promptly and we can explore opportunities together

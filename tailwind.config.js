@@ -23,7 +23,7 @@ export default {
         activeLink: "#eeeeee",
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+        openSans: ["Open-Sans", "sans-serif"],
       },
       fontSize: {
         small: "12px",
@@ -34,9 +34,11 @@ export default {
         extraLarge: "36px",
       },
       spacing: {
+        thin: "6px",
         extraSmall: "8px",
         small: "12px",
         base: "24px",
+        middle: "36px",
         medium: "48px",
       },
     },

@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@layer base {
+  body {
+    @apply font-openSans;
+  }
+
+  h1 {
+    @apply text-extraLarge text-black font-bold leading-none md:text-[44px] xl:text-[52px];
+  }
+
+  h2 {
+    @apply text-large text-black font-bold md:text-[28px] xl:text-extraLarge;
+  }
+}
+
 @layer components {
   .icons {
     @apply w-[20px] h-[20px];
@@ -37,10 +53,6 @@
 
   .formErrorMessage {
     @apply absolute right-0 top-[-18px] text-small text-error;
-  }
-
-  .aboutHeader {
-    @apply text-black text-large font-bold md:text-[28px] xl:text-[36px];
   }
 
   .experienceText {

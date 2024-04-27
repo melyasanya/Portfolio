@@ -1,4 +1,5 @@
 import { useMediaQuery } from "react-responsive";
+
 import { projectItems } from "../../utils/projectItems";
 import { ForwardBtn } from "../ForwardBtn/ForwardBtn";
 import { ProjectItems } from "../ProjectItems/ProjectItems";
@@ -11,9 +12,7 @@ export const HomeProjects = () => {
 
   return (
     <div className="py-medium flex flex-col gap-base border-b w-full m-0">
-      <h2 className="text-large text-black font-bold md:text-[28px] xl:text-[36px]">
-        Recent Projects
-      </h2>
+      <h2>Recent Projects</h2>
       <ProjectItems projectItems={recentProjectItems} />
       <ForwardBtn
         navLink="projects"

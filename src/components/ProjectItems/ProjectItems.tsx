@@ -24,7 +24,7 @@ export const ProjectItems: React.FC<ProjectItemsProps> = ({ projectItems }) => {
             className="rounded p-small bg-bgColor flex flex-col gap-small "
           >
             <img src={el.image} alt={`${el.name} image`} />
-            <div className="flex flex-col gap-[6px] md:h-full">
+            <div className="flex flex-col gap-thin md:h-full">
               <div className="flex justify-between">
                 <div>
                   <p className="text-base text-text font-light uppercase">

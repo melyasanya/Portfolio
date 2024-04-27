@@ -16,7 +16,7 @@ export const StackItems = () => {
               name={el.name}
               shortDescr={el.shortDescr}
             />
-            <p className="text-justify text-base font-light text-text md:text-[16px]">
+            <p className="text-justify text-base font-light text-text md:text-middle">
               {el.longDescr}
             </p>
           </li>

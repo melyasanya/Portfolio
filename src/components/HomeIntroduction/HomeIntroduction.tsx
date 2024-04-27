@@ -3,7 +3,7 @@ import { ForwardBtn } from "../ForwardBtn/ForwardBtn";
 export const HomeIntroduction = () => {
   return (
     <div className="flex flex-col gap-small pb-medium border-b">
-      <h1 className="text-extraLarge text-black font-bold leading-none md:text-[44px] xl:text-[52px]">
+      <h1>
         Hey There! <br /> I'm Oleksandr...
       </h1>
       <p className="text-justify text-text text-base font-light md:max-w-[380px] md:text-middle">
