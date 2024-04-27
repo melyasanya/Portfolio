@@ -7,7 +7,7 @@ export const Projects = () => {
     <section>
       <Reveal>
         <div className="pb-base flex flex-col gap-base">
-          <h1 className="text-extraLarge text-black font-bold leading-none">
+          <h1 className="text-extraLarge text-black font-bold leading-none md:text-[44px] xl:text-[52px]">
             Projects: Showcasing <br />
             My Journey
           </h1>

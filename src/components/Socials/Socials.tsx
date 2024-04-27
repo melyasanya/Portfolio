@@ -65,7 +65,7 @@ export const Socials: React.FC<SocialProps> = ({ section }) => {
 
   if (section === "contact")
     return (
-      <div>
+      <div className="contactsContainer">
         <h3 className="contactsHeader">Social</h3>
         <ul className="contactsList">
           {socialLinks.map((el, id) => {

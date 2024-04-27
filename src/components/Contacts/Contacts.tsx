@@ -19,7 +19,7 @@ const contactLinks = [
 
 export const Contacts = () => {
   return (
-    <>
+    <div className="contactsContainer">
       <h3 className="contactsHeader">Contact</h3>
       <ul className="contactsList">
         {contactLinks.map((el, id) => {
@@ -41,6 +41,6 @@ export const Contacts = () => {
           );
         })}
       </ul>
-    </>
+    </div>
   );
 };

@@ -9,24 +9,26 @@ export const Contact = () => {
       <div>
         <Reveal>
           <div className="pb-medium border-b">
-            <h2 className="text-extraLarge font-bold mb-small text-black">
+            <h2 className="text-extraLarge font-bold mb-small text-black md:text-[44px] xl:text-[52px]">
               Let's Connect!
             </h2>
-            <p className="max-w-[400px] text-text font-light text-base">
+            <p className="max-w-[400px] text-text font-light text-base md:text-middle">
               Feel free to reach out with your project, questions or to connect.
               I'll respond promptly and we can explore opportunities together
             </p>
           </div>
         </Reveal>
-        <Reveal>
-          <div className="pt-medium pb-base flex flex-col gap-medium border-b">
-            <Contacts />
-            <Socials section="contact" />
-          </div>
-        </Reveal>
-        <Reveal>
-          <Form />
-        </Reveal>
+        <div className="xl:flex xl:flex-row-reverse xl:gap-medium">
+          <Reveal>
+            <div className="pt-medium pb-base flex flex-col gap-medium border-b md:grid md:grid-cols-2 md:gap-small xl:flex xl:flex-col xl:gap-medium xl:pb-0 xl:border-b-0">
+              <Contacts />
+              <Socials section="contact" />
+            </div>
+          </Reveal>
+          <Reveal>
+            <Form />
+          </Reveal>
+        </div>
       </div>
     </section>
   );

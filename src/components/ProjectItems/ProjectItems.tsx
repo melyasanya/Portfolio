@@ -16,12 +16,12 @@ interface ProjectItemsProps {
 
 export const ProjectItems: React.FC<ProjectItemsProps> = ({ projectItems }) => {
   return (
-    <ul className="flex flex-col gap-base md:flex-row md:w-full">
+    <ul className="flex flex-col gap-base md:grid md:grid-cols-2 xl:grid-cols-3">
       {projectItems.map((el, id) => {
         return (
           <li
             key={id}
-            className="rounded p-small bg-bgColor flex flex-col gap-small md:w-full"
+            className="rounded p-small bg-bgColor flex flex-col gap-small "
           >
             <img src={el.image} alt={`${el.name} image`} />
             <div className="flex flex-col gap-[6px] md:h-full">

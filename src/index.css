@@ -7,8 +7,12 @@
     @apply w-[20px] h-[20px];
   }
 
+  .contactsContainer {
+    @apply md:flex md:flex-col md:gap-base md:h-fit;
+  }
+
   .contactsHeader {
-    @apply mb-small font-bold text-middle text-blackSecondary;
+    @apply mb-small font-bold text-middle text-blackSecondary md:text-medium md:mb-0;
   }
 
   .contactsList {
@@ -41,5 +45,9 @@
 
   .experienceText {
     @apply text-text text-base font-light;
+  }
+
+  .header {
+    @apply border-b md:w-[180px] md:h-full md:fixed md:top-0 md:left-0 md:overflow-x-hidden md:border-r xl:w-[320px];
   }
 }

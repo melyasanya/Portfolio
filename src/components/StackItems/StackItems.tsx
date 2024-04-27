@@ -4,7 +4,7 @@ import { StackItemShortDescr } from "../StackItemShortDescr/StackItemShortDescr"
 
 export const StackItems = () => {
   return (
-    <ul className="flex flex-col gap-base">
+    <ul className="flex flex-col gap-base xl:grid xl:grid-cols-2">
       {stackItems.map((el, id) => {
         return (
           <li
@@ -16,7 +16,7 @@ export const StackItems = () => {
               name={el.name}
               shortDescr={el.shortDescr}
             />
-            <p className="text-justify text-base font-light text-text">
+            <p className="text-justify text-base font-light text-text md:text-[16px]">
               {el.longDescr}
             </p>
           </li>

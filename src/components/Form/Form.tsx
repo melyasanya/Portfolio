@@ -38,44 +38,47 @@ export const Form = () => {
 
   return (
     <div className="pt-medium pb-[60px] relative">
-      <h3 className="contactsHeader">Get in Touch</h3>
+      <h3 className="contactsHeader md:mb-base">Get in Touch</h3>
       <form className="flex flex-col gap-[20px]" onSubmit={formik.handleSubmit}>
-        <label htmlFor="name" className="relative">
-          <input
-            id="name"
-            name="name"
-            type="text"
-            placeholder="Name"
-            className={
-              formik.errors.name && formik.touched.name
-                ? `${"formInput"} ${"errorInput"}`
-                : "formInput"
-            }
-            onChange={formik.handleChange}
-            value={formik.values.name}
-          />
-          {formik.errors.name && formik.touched.name && (
-            <p className="formErrorMessage">{formik.errors.name}</p>
-          )}
-        </label>
-        <label htmlFor="email" className="relative">
-          <input
-            id="email"
-            name="email"
-            type="text"
-            placeholder="Email"
-            className={
-              formik.errors.email && formik.touched.email
-                ? `${"formInput"} ${"errorInput"}`
-                : "formInput"
-            }
-            onChange={formik.handleChange}
-            value={formik.values.email}
-          />
-          {formik.errors.email && formik.touched.email && (
-            <p className="formErrorMessage">{formik.errors.email}</p>
-          )}
-        </label>
+        <div className="flex flex-col gap-small md:grid md:grid-cols-2 md:gap-small xl:flex xl:flex-col">
+          <label htmlFor="name" className="relative">
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Name"
+              className={
+                formik.errors.name && formik.touched.name
+                  ? `${"formInput"} ${"errorInput"}`
+                  : "formInput"
+              }
+              onChange={formik.handleChange}
+              value={formik.values.name}
+            />
+            {formik.errors.name && formik.touched.name && (
+              <p className="formErrorMessage">{formik.errors.name}</p>
+            )}
+          </label>
+          <label htmlFor="email" className="relative">
+            <input
+              id="email"
+              name="email"
+              type="text"
+              placeholder="Email"
+              className={
+                formik.errors.email && formik.touched.email
+                  ? `${"formInput"} ${"errorInput"}`
+                  : "formInput"
+              }
+              onChange={formik.handleChange}
+              value={formik.values.email}
+            />
+            {formik.errors.email && formik.touched.email && (
+              <p className="formErrorMessage">{formik.errors.email}</p>
+            )}
+          </label>
+        </div>
+
         <label htmlFor="message" className="relative">
           <textarea
             id="message"

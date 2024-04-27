@@ -6,7 +6,7 @@ export const Stack = () => {
     <section>
       <Reveal>
         <div className="flex flex-col gap-base pb-base">
-          <h1 className="text-black text-extraLarge font-bold">
+          <h1 className="text-black text-extraLarge font-bold md:text-[44px] xl:text-[52px]">
             My Skill Stack
           </h1>
           <StackItems />
