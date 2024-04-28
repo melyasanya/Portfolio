@@ -14,7 +14,7 @@ export const ForwardBtn: React.FC<ForwardBtnProprs> = ({
 }) => {
   return (
     <NavLink
-      className={`flex justify-center items-center gap-[6px] text-text py-small border border-black rounded active:bg-activeLink ${className}`}
+      className={`flex justify-center items-center gap-[6px] text-text p-small border border-black rounded active:bg-activeLink md:px-0 ${className}`}
       to={`/${navLink}`}
     >
       <p>{content}</p>
