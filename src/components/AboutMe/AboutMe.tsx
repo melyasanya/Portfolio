@@ -1,4 +1,5 @@
 import AboutImage from "../../assets/images/avatar.jpg";
+import { DownloadBtn } from "../DownloadBtn/DownloadBtn";
 
 export const AboutMe = () => {
   return (
@@ -6,7 +7,7 @@ export const AboutMe = () => {
       <img
         src={AboutImage}
         alt="My photo"
-        className="rounded md:w-full md:h-full md:order-last md:object-cover md:max-h-[528px] xl:max-h-[454px]"
+        className="rounded md:w-full md:h-full md:order-last md:object-cover md:max-h-[602px] xl:max-h-[528px]"
       />
       <div className="flex flex-col gap-base ">
         <h1>
@@ -21,6 +22,7 @@ export const AboutMe = () => {
           for detail and a dedication to continuous learning, I approach each
           project with enthusiasm and a commitment to excellence.
         </p>
+        <DownloadBtn />
       </div>
     </div>
   );
