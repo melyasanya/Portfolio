@@ -1,8 +1,8 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome+to+my+portfolio)](https://portfolio-mu-one-22.vercel.app/)
 
-# $${\color{blue}My \space Portfolio}$$
+# $${\color{blue}Portfolio}$$
 
-Welcome to my portfolio! This project contains information about me, my skills, projects I've worked on, and more. It will help you get to know me and my software development experience better.
+This project contains information about me, my skills, projects I've worked on, and more. It will help you get to know me and my software development experience better.
 
 ![PORTFOLIO](./src/assets/images/ReadMeImage.png)
 
