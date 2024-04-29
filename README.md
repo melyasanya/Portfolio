@@ -1,4 +1,6 @@
-# $${\color{blue}My Portfolio}$$
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome+to+my+portfolio)](https://portfolio-mu-one-22.vercel.app/)
+
+# $${\color{blue}My \space Portfolio}$$
 
 Welcome to my portfolio! This project contains information about me, my skills, projects I've worked on, and more. It will help you get to know me and my software development experience better.
 
@@ -18,13 +20,13 @@ This is my personal portfolio website showcasing my skills, experience, and proj
 - [Framer Motion](https://www.framer.com/motion/)
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 
-## Features
+## $${\color{blue}Features}$$
 
 - Personal Information: detailed information about me, my skills, and experience.
 - Projects: a list of my projects with brief descriptions and links to them.
 - Contact: ways to get in touch with me.
 
-## Website Structure
+## $${\color{blue}Website \space Structure}$$
 
 The portfolio website is organized into several main sections:
 
@@ -40,7 +42,7 @@ The portfolio website is organized into several main sections:
 
 Each section is accessible via the navigation menu or through links/buttons throughout the website. The website aims to provide a comprehensive overview of my capabilities and experiences as a software developer.
 
-## Getting Started
+## $${\color{blue}Getting \space Started}$$
 
 To run this project locally, follow these steps:
 
