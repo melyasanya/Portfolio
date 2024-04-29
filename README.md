@@ -1,4 +1,4 @@
-# My Portfolio
+# $${\color{blue}My Portfolio}$$
 
 Welcome to my portfolio! This project contains information about me, my skills, projects I've worked on, and more. It will help you get to know me and my software development experience better.
 
