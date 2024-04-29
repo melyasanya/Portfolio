@@ -28,15 +28,15 @@ This is my personal portfolio website showcasing my skills, experience, and proj
 
 The portfolio website is organized into several main sections:
 
-1. **Home**: The landing page of the website, providing an introduction to me and my work.
+1. **_Home_**: The landing page of the website, providing an introduction to me and my work.
 
-2. **About**: This section contains detailed information about me, including my education, skills, and experience.
+2. **_About_**: This section contains detailed information about me, including my education, skills, and experience.
 
-3. **Projects**: Here, you'll find a list of projects I've worked on, along with brief descriptions and links to view them.
+3. **_Projects_**: Here, you'll find a list of projects I've worked on, along with brief descriptions and links to view them.
 
-4. **Stack**: In this section, I showcase the technologies and tools I'm proficient in, providing insights into my technical skills.
+4. **_Stack_**: In this section, I showcase the technologies and tools I'm proficient in, providing insights into my technical skills.
 
-5. **Contact**: The contact section provides various ways to get in touch with me, such as through email or social media platforms or feedback form.
+5. **_Contact_**: The contact section provides various ways to get in touch with me, such as through email or social media platforms or feedback form.
 
 Each section is accessible via the navigation menu or through links/buttons throughout the website. The website aims to provide a comprehensive overview of my capabilities and experiences as a software developer.
 
