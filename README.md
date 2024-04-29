@@ -2,19 +2,21 @@
 
 Welcome to my portfolio! This project contains information about me, my skills, projects I've worked on, and more. It will help you get to know me and my software development experience better.
 
+![PORTFOLIO](./src/assets/images/ReadMeImage.png)
+
 ## Overview
 
 This is my personal portfolio website showcasing my skills, experience, and projects I've worked on. It's built using [Vite](https://vitejs.dev/) for lightning-fast development experience along with the following technologies:
 
-- React
-- TypeScript
-- Tailwind CSS
-- React Router
-- Axios
-- Formik
-- Yup
-- Framer Motion
-- Telegram Bot API
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/en/main)
+- [Axios](https://axios-http.com/)
+- [Formik](https://formik.org/)
+- [Yup](https://github.com/jquense/yup)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Telegram Bot API](https://core.telegram.org/bots/api)
 
 ## Features
 
