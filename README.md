@@ -4,7 +4,7 @@ Welcome to my portfolio! This project contains information about me, my skills, 
 
 ![PORTFOLIO](./src/assets/images/ReadMeImage.png)
 
-## Overview
+## $${\color{blue}Overview}$$
 
 This is my personal portfolio website showcasing my skills, experience, and projects I've worked on. It's built using [Vite](https://vitejs.dev/) for lightning-fast development experience along with the following technologies:
 
