@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This project contains information about me, my skills, projects I've worked on, and more. It will help you get to know me and my software development experience better.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my personal portfolio website showcasing my skills, experience, and projects I've worked on. It's built using [Vite](https://vitejs.dev/) for lightning-fast development experience along with the following technologies:
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- Axios
+- Formik
+- Yup
+- Framer Motion
+- Telegram Bot API
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- Personal Information: detailed information about me, my skills, and experience.
+- Projects: a list of my projects with brief descriptions and links to them.
+- Contact: ways to get in touch with me.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Website Structure
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The portfolio website is organized into several main sections:
+
+1. **Home**: The landing page of the website, providing an introduction to me and my work.
+
+2. **About**: This section contains detailed information about me, including my education, skills, and experience.
+
+3. **Projects**: Here, you'll find a list of projects I've worked on, along with brief descriptions and links to view them.
+
+4. **Stack**: In this section, I showcase the technologies and tools I'm proficient in, providing insights into my technical skills.
+
+5. **Contact**: The contact section provides various ways to get in touch with me, such as through email or social media platforms or feedback form.
+
+Each section is accessible via the navigation menu or through links/buttons throughout the website. The website aims to provide a comprehensive overview of my capabilities and experiences as a software developer.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm run dev`.
+4. Open your browser and navigate to `http://localhost:5173`.
