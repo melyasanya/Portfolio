@@ -4,7 +4,7 @@ export const experienceItems = [
     position: "Trainee",
     timeLine: "September 2021 - February 2022",
     descr:
-      "In my current position, I'm responsible for daily monitoring tasks, ensuring prompt responses to emerging needs. I also handle the translation of texts, maintaining accuracy and clarity across languages. Additionally, I conduct market research to stay informed about industry trends, contributing valuable insights to our strategies.",
+      "In this position, I was responsible for daily monitoring tasks, ensuring prompt responses to emerging needs. I also handled the translation of texts, maintaining accuracy and clarity across languages. Additionally, I conducted market research to stay informed about industry trends, contributing valuable insights to our strategies.",
   },
   {
     companyName: "ICM",

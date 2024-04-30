@@ -3,8 +3,28 @@ import PowerPulseImage from "../assets/images/PowerPulseImage.png";
 import MoneyGuardImage from "../assets/images/MoneyGuardImage.png";
 import MarvelousAdventuresImage from "../assets/images/MarvelousAdventuresImage.png";
 import SimplyChocolateImage from "../assets/images/SimplyChocolateImage.png";
+import PortfolioImage from "../assets/images/PortfolioImage.png";
 
 export const projectItems = [
+  {
+    name: "Portfolio",
+    descr:
+      "My portfolio project highlights my proficiency as a full-stack developer, emphasizing elegant frontend design and interactive user experiences. It serves as a testament to my ability to create dynamic and engaging web applications with a focus on user-centric design principles.",
+    technologies: "React, Tailwind",
+    image: PortfolioImage,
+    links: [
+      {
+        linkDescr: "Website",
+        link: "https://portfolio-mu-one-22.vercel.app/",
+      },
+      {
+        linkDescr: "Code",
+        link: "https://github.com/melyasanya/Portfolio",
+      },
+    ],
+
+    status: "Pet Project",
+  },
   {
     name: "Ambidexter",
     descr:
