@@ -7,6 +7,7 @@ import { About } from "./sections/About/About";
 import { Projects } from "./sections/Projects/Projects";
 import { Stack } from "./sections/Stack/Stack";
 import { Contact } from "./sections/Contact/Contact";
+import { Error } from "./sections/Error/Error";
 import { useEffect } from "react";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/stack" element={<Stack />} />
         <Route path="/contact" element={<Contact />} />
       </Route>
+      <Route path="*" element={<Error />} />
     </Routes>
   );
 }
