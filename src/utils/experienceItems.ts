@@ -1,4 +1,25 @@
-export const experienceItems = [
+interface Experience {
+  companyName: string;
+  position: string;
+  timeLine: string;
+  descr: string;
+}
+
+export const experienceItems: Experience[] = [
+  {
+    companyName: "Roqo Practicum",
+    position: "Trainee",
+    timeLine: "April 2024 - August 2024",
+    descr:
+      "In this role, I was responsible for developing projects according to design specifications using React and TypeScript, ensuring both functionality and performance. I wrote unit and integration tests to maintain high code quality and minimize bugs. Additionally, I conducted code reviews for my teammates, providing constructive feedback to enhance our collaborative efforts. I actively participated in team discussions to determine the best implementation strategies for new features, always focusing on optimizing both the user experience and technical performance. Furthermore, I worked with Git for version control, ensuring efficient and organized project management.",
+  },
+  {
+    companyName: "SoftRyzen",
+    position: "Trainee",
+    timeLine: "August 2023 - September 2023",
+    descr:
+      "In this role, I was responsible for developing projects using Next.js and Tailwind, adhering closely to design specifications. I focused on creating reusable components to improve development efficiency and consistency. Additionally, I implemented the Open Graph Protocol to enhance content sharing across social media platforms. I also presented the project to clients, ensuring clear communication and alignment with their expectations.",
+  },
   {
     companyName: "PBN Hill+Knowlton Strategies",
     position: "Trainee",
