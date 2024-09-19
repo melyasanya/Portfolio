@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { GoDownload } from "react-icons/go";
+import { Icon } from "../Icons";
 
 export const DownloadBtn = () => {
   return (
@@ -10,7 +10,7 @@ export const DownloadBtn = () => {
       className="flex justify-center items-center gap-[6px] text-text p-small border border-black rounded active:bg-activeLink md:w-[200px] md:px-0"
     >
       <p>Download CV</p>
-      <GoDownload className="icons" />
+      <Icon.Download />
     </Link>
   );
 };

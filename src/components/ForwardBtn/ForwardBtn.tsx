@@ -1,5 +1,6 @@
-import { IoIosArrowRoundForward } from "react-icons/io";
 import { NavLink } from "react-router-dom";
+
+import { Icon } from "../Icons";
 
 interface ForwardBtnProprs {
   navLink: string;
@@ -18,7 +19,7 @@ export const ForwardBtn: React.FC<ForwardBtnProprs> = ({
       to={`/${navLink}`}
     >
       <p>{content}</p>
-      <IoIosArrowRoundForward className="icons" />
+      <Icon.Forward />
     </NavLink>
   );
 };

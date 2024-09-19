@@ -2,33 +2,33 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import { containerVars, elementVars } from "../../constants/animations.ts";
-import { GoBriefcase, GoHome, GoPerson, GoRead, GoStack } from "react-icons/go";
+import { Icon } from "../Icons/index.ts";
 
 interface NavigationProps {
   closeMenu?: () => void;
 }
 
 const navigationOptions = [
-  { name: "Home", href: "/", icon: <GoHome className="icons" /> },
+  { name: "Home", href: "/", icon: <Icon.Home /> },
   {
     name: "About",
     href: "/about",
-    icon: <GoPerson className="icons" />,
+    icon: <Icon.About />,
   },
   {
     name: "Projects",
     href: "/projects",
-    icon: <GoBriefcase className="icons" />,
+    icon: <Icon.Projects />,
   },
   {
     name: "Stack",
     href: "/stack",
-    icon: <GoStack className="icons" />,
+    icon: <Icon.Stack />,
   },
   {
     name: "Contact",
     href: "/contact",
-    icon: <GoRead className="icons" />,
+    icon: <Icon.Contact />,
   },
 ];
 

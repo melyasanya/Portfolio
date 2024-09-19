@@ -1,32 +1,27 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import {
-  FaGithubSquare,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTelegramPlane,
-} from "react-icons/fa";
 
 import { containerVars, elementVars } from "../../constants/animations.ts";
+import { Icon } from "../Icons/index.ts";
 
 const socialLinks = [
   {
-    icon: <FaTelegramPlane className="icons" />,
+    icon: <Icon.Telegram />,
     link: "https://t.me/melyasanya",
     name: "Telegram",
   },
   {
-    icon: <FaInstagram className="icons" />,
+    icon: <Icon.Instagram />,
     link: "https://www.instagram.com/sanya_melnychenko/",
     name: "Instagram",
   },
   {
-    icon: <FaLinkedinIn className="icons" />,
+    icon: <Icon.Linkedin />,
     link: "https://www.linkedin.com/in/o-melnychenko/",
     name: "Linkedin",
   },
   {
-    icon: <FaGithubSquare className="icons" />,
+    icon: <Icon.Github />,
     link: "https://github.com/melyasanya",
     name: "Github",
   },
@@ -49,7 +44,7 @@ export const Socials: React.FC<SocialProps> = ({ section }) => {
         {socialLinks.map((el, id) => {
           return (
             <li
-              className=" overflow-hidden flex justify-center items-center p-small"
+              className="overflow-hidden flex justify-center items-center p-small"
               key={id}
             >
               <motion.div variants={elementVars}>

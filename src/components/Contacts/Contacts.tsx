@@ -1,16 +1,16 @@
-import { CiMail } from "react-icons/ci";
-import { CiPhone } from "react-icons/ci";
 import { Link } from "react-router-dom";
+
+import { Icon } from "../Icons";
 
 const contactLinks = [
   {
-    icon: <CiMail className="icons" />,
+    icon: <Icon.Mail />,
     value: "mailto:werbolom@gmail.com",
     label: "werbolom@gmail.com",
     link: "/",
   },
   {
-    icon: <CiPhone className="icons" />,
+    icon: <Icon.Phone />,
     value: "tel:+380507556918",
     label: "+380507556918",
     link: "/",

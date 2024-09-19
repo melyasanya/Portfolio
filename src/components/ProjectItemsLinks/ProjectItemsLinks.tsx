@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { MdArrowOutward } from "react-icons/md";
+
+import { Icon } from "../Icons";
 
 interface ProjectItemsLinksProps {
   links: {
@@ -22,7 +23,7 @@ export const ProjectItemsLinks: React.FC<ProjectItemsLinksProps> = ({
               className="flex items-center gap-thin text-text text-base font-light"
             >
               <p>{`View ${el.linkDescr}`}</p>
-              <MdArrowOutward className="icons" />
+              <Icon.Arrow />
             </Link>
           </li>
         );
